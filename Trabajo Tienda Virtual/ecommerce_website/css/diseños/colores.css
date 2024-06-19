@@ -1,0 +1,17 @@
+body{
+    background-color: #93ffff;
+}
+
+header .custom-color{
+    background-color: #2bc1b9;
+}
+
+main{
+    background-color: #70eae8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer{
+    background-color: #2bc1b9;
+}

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{ 
+    width: 100%;
+}
+
+/* Estilos para el contenido principal */
+main {
+    width: 100%; /* Ejemplo de ancho máximo para el contenido principal */
+    margin: 0 auto; /* Centrar el contenido en pantallas anchas */
+    min-width: fit-content;
+}
+
+@media (max-width: 550px) {
+    header, main, footer {
+        width: auto; /* Ancho automático para ocupar el espacio necesario */
+        max-width: none; /* Anular el ancho máximo */
+    }
+}

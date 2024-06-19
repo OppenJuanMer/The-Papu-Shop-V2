@@ -1,0 +1,203 @@
+<!-- Para crear la base se necesita poner "!" -->
+<!DOCTYPE html>
+<html lang="en">
+<!-- Head es donde ponemos los links para los css's, los bootstrap's y las fuentes. Ademas las configuraciones principales de la pagina como el título-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Tittle es nombre que tendrá la página desde las pestañas -->
+    <title>The Papu Shop - Principal</title>
+    <!-- Para las fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fuente: Montserrat -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap">
+    <!-- Fuente: Kanit -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit&display=swap">
+    <!-- Fuente: Oswald -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap">
+    <!-- Para el bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-k2gsVHaN0o+xBMHCO29azf/0F4qWNrjHq5Nx8tdfZ+47Tfjqgwfg5tU9Y3ZO/rIE" crossorigin="anonymous"></script>   
+    <!-- Mis .CSS -->
+    <!-- Diseños -->
+    <link rel="stylesheet" href="../css/diseños/fuentes.css">
+    <link rel="stylesheet" href="../css/diseños/colores.css">
+    <link rel="stylesheet" href="../css/diseños/formatos.css">
+    <!-- Configuraciones técnicas -->
+    <link rel="stylesheet" href="../css/configuraciones/carousel.css">
+    <link rel="stylesheet" href="../css/configuraciones/responsive.css">
+    <link rel="stylesheet" href="../css/configuraciones/productos.css">
+</head>
+<!-- Body es lo que se ve de la página -->
+<body>
+<!-- Header es la cabeza de la página -->
+<header>
+    <nav class="navbar navbar-expand-lg custom-color">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">
+                <img src="../imágenes/The_Papu_Shop_Logo.PNG" alt="Logo" class="d-inline-block align-text-top rounded-4 aspect-ratio-5x4" style="width: 80px;">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://www.patreon.com" target="_blank">Mi Patreon</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Componentes
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="articulos_principal/procesador.html">Procesador</a></li>
+                            <li><a class="dropdown-item" href="articulos_principal/memoria_ram.html">Memoria RAM</a></li>
+                            <li><a class="dropdown-item" href="articulos_principal/disco_duro.html">Disco Duro</a></li>
+                            <li><a class="dropdown-item" href="articulos_principal/disco_sólido.html">Disco Sólido</a></li>
+                            <li><a class="dropdown-item" href="articulos_principal/tarjeta_gráfica.html">Tarjeta Gráfica</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<!-- Main es el condtenido principal de la página -->
+<main>
+    <section>
+        <article>
+            <a href="articulos_principal/procesador.html">
+                <h1 class="titulo-carousel">Procesadores</h1>
+            </a>
+            <div id="carouselExampleIndicators1" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure class="carousel-figure">
+                                <img src="../imágenes/procesador_img/AMD_Ryzen_7_5800X.jfif" class="carousel-image" alt="Procesador AMD Ryzen 7 5800X">
+                                <figcaption class="carousel-caption">
+                                    <h5 class="carousel-description">AMD Ryzen 7 5800X</h5>
+                                    <p class="carousel-description">$356 070</p>
+                                    <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure class="carousel-figure">
+                                <img src="../imágenes/procesador_img/Intel_i7_9700K.jpg" class="carousel-image" alt="Intel i7 9700K">
+                                <figcaption class="carousel-caption">
+                                    <h5 class="carousel-description">Intel i7 9700K</h5>
+                                    <p class="carousel-description">$935 999</p>
+                                    <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure class="carousel-figure">
+                            <img src="../imágenes/procesador_img/Intel_Core_2_Quad_Q8400.jpg" class="carousel-image" alt="Intel Core 2 Quad Q8400">
+                            <figcaption class="carousel-caption">
+                                <h5 class="carousel-description">Intel Core 2 Quad Q8400</h5>
+                                <p class="carousel-description">$28 999</p>
+                                <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators1" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+        <article>
+            <h1 class="titulo-carousel">Memoria RAM</h1>
+            <div id="carouselExampleIndicators2" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <figure class="carousel-figure">
+                                <img src="../imágenes/memoria_ram_img/Corsair_Vengeance_LPX.jfif" class="carousel-image" alt="Corsair Vengeance LPX">
+                            <figcaption class="carousel-caption">
+                                <h5 class="carousel-description">Corsair Vengeance LPX</h5>
+                                <p class="carousel-description">$12 000</p>
+                                <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure class="carousel-figure">
+                                <img src="../imágenes/memoria_ram_img/GSkill_Trident Z_RGB" class="carousel-image" alt="GSkill Trident Z RGB">
+                            <figcaption class="carousel-caption">
+                                <h5 class="carousel-description">GSkill Trident Z RGB</h5>
+                                <p class="carousel-description">$14 500</p>
+                                <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="carousel-item">
+                        <figure class="carousel-figure">
+                                <img src="../imágenes/memoria_ram_img/Crucial_Ballistix.jfif" class="carousel-image" alt="Crucial Ballistix">
+                            <figcaption class="carousel-caption">
+                                <h5 class="carousel-description">Crucial Ballistix</h5>
+                                <p class="carousel-description">$10 000</p>
+                                <button class="vender-boton-index" onclick="window.open('https://www.youtube.com/watch?v=dQw4w9WgXcQ' , '_blank')">Comprar</button>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </article>
+    </section>
+</main>
+<!-- Footer es el pie de página -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3">
+                <h5 class="footer-text">Contacto</h5>
+                <p class="footer-text">Email: contacto@thepapushop.com</p>
+                <p class="footer-text">(Este gmail no es real)</p>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-text">Redes Sociales</h5>
+                <ul class="list-unstyled">
+                    <li class="footer-text"><a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook"></i>Facebook</a></li>
+                    <li class="footer-text"><a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    <li class="footer-text"><a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i>Instagram</a></li>
+                </ul>
+            </div>
+            <div class="col-md-3">
+                <h5 class="footer-text">Legal</h5>
+                <ul class="list-unstyled">
+                    <li class="footer-text"><a href="legal/politica_y_privacidad.html">Política de Privacidad</a></li>
+                    <li class="footer-text"><a href="legal/terminos_y_condiciones.html">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="text-muted text-center">© 2024 Tu Empresa. Todos los derechos reservados.</p>
+    </div>
+</footer>
+<!-- Para footstrap y jQuery-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>

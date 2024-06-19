@@ -1,0 +1,66 @@
+.carousel-figure {
+  width: 210px; /* Ancho del figure */
+  height: 415px; /* Alto del figure */
+  margin: auto; /* Centra el figure horizontalmente */
+  display: flex;
+  flex-direction: column;
+  padding: 5px; /* Padding general del figure */
+  background-color: #4ed6d1; /* Color de fondo del figure */
+  border-radius: 10px; /* Borde redondeado para el figure */
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel-image {
+  width: calc(100% - 10px); /* Ancho de la imagen */
+  height: calc(100% - 45.21%);
+  max-height: 200px;
+  padding: 5px; /* Padding de la imagen */
+  margin: auto; /* Centra la imagen horizontalmente */
+  position: absolute;
+  border-radius: 10px;
+}
+
+
+.carousel-caption {
+    padding: 5px 5px 0 5px; /* Padding del figcaption */
+    text-align: center;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px; /* Ancho ajustado para las flechas */
+    height: 40px; /* Alto ajustado para las flechas */
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    color: white;
+    text-align: center; /* Añadido para centrar el contenido */
+    line-height: 40px; /* Añadido para centrar verticalmente */
+    font-size: 1.5rem; /* Tamaño del ícono de flecha */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 50%;
+    margin-left: -10px; /* Ajuste para centrar horizontalmente */
+    display: inline-block;
+    width: 20px; /* Ancho ajustado para el ícono de flecha */
+    height: 20px; /* Alto ajustado para el ícono de flecha */
+    background-color: transparent;
+    background-size: 100%, 100%;
+    border: none;
+    outline: none;
+}
+
+.carousel-control-prev {
+    left: 10px; /* Posición a la izquierda */
+}
+
+.carousel-control-next {
+    right: 10px; /* Posición a la derecha */
+}

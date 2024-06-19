@@ -1,0 +1,36 @@
+header a {
+    font-family: 'Kanit', sans-serif;
+}
+
+header form {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-description{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    background-color: #93ffff;
+    border-radius: 10px;
+}
+
+.titulo-carousel{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 45px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.producto-description{
+    color: black;
+    font-family: 'Kanit', sans-serif;
+    background-color: #93ffff;
+    border-radius: 10px;
+}
+
+.footer-text{
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}

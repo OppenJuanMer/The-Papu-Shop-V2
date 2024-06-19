@@ -1,0 +1,60 @@
+.contenedor-figure {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px; /* Espacio entre cada figura */
+    justify-content: center;
+}
+
+.producto-figure {
+    display: flex;
+    width: 415px;
+    height: 260px;
+    background-color: #4ed6d1;
+    border-radius: 10px;
+    padding: 5px;
+    box-sizing: border-box; /* Asegura que el padding se incluya en el ancho y alto total */
+    position: relative; /* Añadido para controlar el posicionamiento absoluto */
+}
+
+.producto-image {
+    width: 200px;
+    height: calc(100%); /* Altura de la imagen ajustada */
+    border-radius: 10px;
+}
+
+.producto-caption {
+    flex: 1; /* El figcaption ocupa todo el espacio restante */
+    padding-left: 5px; /* Espacio entre la imagen y el texto */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra verticalmente el contenido */
+    text-align: center; /* Centra horizontalmente el contenido */
+}
+.vender-boton {
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px; /* Puntas redondeadas */
+    position: relative;
+}
+
+.vender-boton-index{
+    background-color: #4CAF50; /* Color verde */
+    color: white;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    border-radius: 10px; /* Puntas redondeadas */
+    position: relative;
+    bottom: 20px;
+}
